@@ -1,0 +1,142 @@
+@import url(//fonts.googleapis.com/css?family=Bad+Script);
+@import url(//fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(//fonts.googleapis.com/css?family=Assistant);
+@import url(//fonts.googleapis.com/css?family=Raleway);
+
+/**/
+/*Page Styles*/
+
+html, body, h1, h2, h3, p, ul, li {
+	padding:0;
+	margin:0;
+	}
+
+html {
+	font-family:'Open Sans', arial, sans-serif;
+	font-size: .625em;
+	}
+#index {
+	padding:1vh 0;
+	height: 98vh;
+	background-image: url('../assets/images/sedona_fpl.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	}
+#about {}
+#gallery {}
+#pricing {}
+#contact {}
+
+/**/
+/*Universal Page Content*/
+
+header {
+	text-align: center;
+	width: 60em;
+	margin: 6em auto;
+	}
+hgroup {}
+h1, h2, h3, a {
+	font-family: "Bad Script", cursive;
+	font-weight:200;
+	}
+h1 {
+	font-size:4em;
+	}
+h2 {
+	font-size:1.8em;
+	}
+h3 {
+	font-size:1em;
+	}
+p {}
+
+/**/
+/*Navigation Content*/
+
+nav {
+	position:absolute;
+	bottom:0;
+	height:90px;
+	width:100%;
+	background: rgb(215,210,210);
+	}
+#navwrap {
+	height:66px;
+	width:600px;
+	margin:12px auto;
+	}
+#logo {
+	float:left;
+	height:65px;
+	padding-left:75px;
+	background: url('../assets/images/katlogo.png') center left no-repeat;
+	}
+#logo h1 {
+	font-size:35px;
+	color: rgb(75,75,85);
+	}
+nav ul {
+	width:350px;
+	height:40px;
+	float:left;
+	margin:20px 0 0 40px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	}
+nav ul li {
+	list-style:none;
+	}
+nav ul li a {
+	text-decoration:none;
+	color: rgb(75,75,85);
+	font-size: 20px;
+	border:1px solid rgba(75,75,85, 0);
+	padding: 0 15px;
+	}
+nav ul li a:hover {
+	border:1px solid rgb(75,75,85);
+	border-radius:20px;
+	background-color: rgba(255,255,255, 0.5);
+	cursor: pointer;
+	}
+
+/**/
+/*About Page Contact*/
+
+#examples {}
+.example {}
+
+/**/
+/*Gallery Page Content*/
+
+.gallerbox {}
+.preview {}
+.fullsize {}
+
+/**/
+/*Pricing Page Content*/
+
+table {}
+th {}
+tr {}
+td {}
+td:first-child, th:firstchild {}
+
+/**/
+/*Contact Page Content*/
+
+form {}
+label {}
+textarea {}
+input {}
+select {}
+button {}
+
+#katbots {}
+
+/**/
+/*Fonts Provided by Google Fonts*/
